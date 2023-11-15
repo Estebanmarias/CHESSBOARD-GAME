@@ -1,0 +1,35 @@
+body{
+    background: white;
+    font-family: serif;
+}
+
+.CHESSBOARD{
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 10px solid black;
+    background-color: white;
+    box-shadow: 5px 5px 8px whitesmoke,
+                -5px -5px 8px white;
+}
+
+.black{
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: dimgray;
+    font-size: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.white{
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: ghostwhite;
+    font-size: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
